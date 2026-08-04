@@ -6,9 +6,9 @@
 
 ## 📊 Skill Dashboard
 
-| Skill | Level | Tier | Status |
-|-------|-------|------|--------|
-| *(No skills added yet)* | — | — | — |
+| Skill | Level | Tier | Status | Link |
+|-------|-------|------|--------|------|
+| **DSA in C** | Level 1 | Tier 1 (🌱 Beginner) | 🟡 Diagnostic Test | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
 
 ---
 
@@ -32,18 +32,6 @@
 4. **Ask Questions** — AI tutor available throughout
 5. **Take Tier Tests** — Prove mastery to level up
 6. **Repeat** — Unlock the next tier and keep climbing
-
----
-
-## 📁 Skills
-
-*(Skills will appear here as they are added)*
-
----
-
-## 📈 Progress Log
-
-*(Assessment results and level-ups will be logged here)*
 
 ---
 
