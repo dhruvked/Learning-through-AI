@@ -1,0 +1,14 @@
+# Environment variables & secrets
+.env
+
+# HTML previews
+preview.html
+scripts/preview.html
+
+# Python cache
+__pycache__/
+*.pyc
+
+# IDE / OS
+.vscode/
+.DS_Store
