@@ -14,10 +14,11 @@ int main() {
 
     // TASK 2: Set student id to 101 and score to 95 using arrow operator (->).
     // Write your code here!
-
+    s->id = 101;
     // TASK 3: Print student id and score.
+    s->score = 95;
     
     // TASK 4: Free the allocated memory using free(s).
-    
+    free(s);
     return 0;
 }
