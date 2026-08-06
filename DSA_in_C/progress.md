@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 17
-- **Current Tier**: Tier 1 (🌱 Beginner)
-- **Status**: Level 17 - Linked List Stacks & Queues (Ready to Start)
-- **Total XP**: 425 XP
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*
+- **Current Level**: Level 21
+- **Current Tier**: Tier 2 (🌿 Intermediate)
+- **Status**: Level 21 - Recursion & Call Stack Fundamentals (Ready to Start)
+- **Total XP**: 600 XP
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Implement a dynamic, unconfined **Linked List Queue** (Pointer-based Queue) with `enqueue` and `dequeue`.
-- **File**: `DSA_in_C/solutions/level_17_linked_list_queue.c`
+- **Task**: Understand **Recursion** and the CPU Call Stack with Base Cases and Recursive Steps.
+- **File**: `DSA_in_C/solutions/level_21_recursion_intro.c`
 
 ---
 
@@ -18,6 +18,10 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-06 | Lvl 20 | Tier 1 Final Capstone | Passed | Built real-world Browser History Manager with DLL, back/forward navigation (+60 XP) |
+| 2026-08-06 | Lvl 19 | Big-O Complexity Analysis | Passed | 100% score on $\mathcal{O}(1), \mathcal{O}(N), \mathcal{O}(N^2), \mathcal{O}(\log N)$ quiz (+40 XP) |
+| 2026-08-06 | Lvl 18 | Linked List Stack | Passed | Mastered dynamic pointer-based LIFO stack with $O(1)$ `push`, `pop`, `peek` (+35 XP) |
+| 2026-08-06 | Lvl 17 | Linked List Queue | Passed | Mastered dynamic pointer-based FIFO queue with `enqueue` and `dequeue` (+40 XP) |
 | 2026-08-05 | Lvl 16 | Circular Queue (`%`) | Passed | Mastered modulo wrap-around `(rear + 1) % MAX` for 0-shift slot reuse (+40 XP) |
 | 2026-08-05 | Lvl 15 | Queue Implementation | Passed | Mastered FIFO queue with `enqueue`, `dequeue`, `getFront`, `isEmpty`, and `isFull` (+35 XP) |
 | 2026-08-05 | Lvl 14 | Stack Implementation | Passed | Mastered LIFO stack structure with `push`, `pop`, `peek`, `isEmpty`, and `isFull` (+35 XP) |
