@@ -1,27 +1,28 @@
 name: Daily Learning Digest Email
 
 on:
-    schedule:
-        # 03:30 UTC = 9:00 AM IST (India Standard Time)
-        - cron: "30 3 * * *"
-    workflow_dispatch: # Enables a "Run workflow" button for manual testing anytime
+  schedule:
+    # 03:30 UTC = 9:00 AM IST (India Standard Time)
+    - cron: '30 3 * * *'
+  workflow_dispatch: # Enables a "Run workflow" button for manual testing anytime
 
 jobs:
-    send-digest:
-        runs-on: ubuntu-latest
+  send-digest:
+    runs-on: ubuntu-latest
 
-        steps:
-            - name: Checkout repository
-              uses: actions/checkout@v4
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-            - name: Set up Python
-              uses: actions/setup-python@v5
-              with:
-                  python-version: "3.12"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
 
-            - name: Run Daily Digest Email Script
-              env:
-                  GMAIL_USER: ${{ secrets.GMAIL_USER }}
-                  GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
-              run: |
-                  python scripts/send_daily_digest.py --send
+      - name: Run Daily Digest Email Script
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          python scripts/send_daily_digest.py --send
