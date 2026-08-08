@@ -452,6 +452,91 @@ def generate_developer_progress_html(data, ai_insights):
 </html>
 """
 
+def update_readme(data, ai_insights):
+    scores = ai_insights.get("skill_scores", {})
+    cap_title = ai_insights.get("capability_title", "RECURSIVE EXECUTION")
+    cap_points = ai_insights.get("capability_points", [])
+    cap_md = "\n".join([f"- ✓ {pt}" for pt in cap_points])
+    
+    readme_content = f"""# 🧠 Learning Through AI — Personal Developer OS
+
+> A data-driven personal learning & engineering system — skill tracking, capability acquisition, and AI-assisted assessments.
+
+---
+
+## 📊 Developer Progress Dashboard
+
+| Metric | Current Value |
+|--------|---------------|
+| **Overall Level** | **Level {data['current_level']}** / 100 |
+| **Total XP** | {data['xp']} / {data['xp_needed']} XP |
+| **Current Tier** | {data['current_tier']} |
+| **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
+| **Active Objective** | {data['current_task']} |
+| **Last Updated** | {data['date_str']} |
+
+---
+
+## 📈 Active Skill Matrix
+
+| Skill Track | Level | Tier | Progress | Status | Link |
+|-------------|-------|------|----------|--------|------|
+| **DSA in C** | **Level {data['current_level']}** | {data['current_tier']} | `[████████████████████░░░░░░░░░░] {data['level_progress_pct']}%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+
+
+---
+
+## 🏛️ Curriculum Tiers
+
+- **Tier 1 — C & Fundamentals**: `{data['tier1_count']} / 20` `[████████████████████] {data['tier1_pct']}% Complete`
+- **Tier 2 — Data Structures & Algorithms**: `{data['tier2_count']} / 20` `[█░░░░░░░░░░░░░░░░░░░] {data['tier2_pct']}% Complete`
+- **Tier 3 — Systems & OS**: `🔒 Locked`
+- **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
+- **Tier 5 — Advanced Engineering**: `🔒 Locked`
+
+---
+
+## 🧠 Skill Profile Radar
+
+```text
+Memory & Pointers     [████████████████░░] {scores.get('memory', 82)}
+Backend Engineering   [███████████░░░░░░] {scores.get('backend', 58)}
+Data Structures       [████████░░░░░░░░░] {scores.get('data_structures', 41)}
+AI / ML               [█████████████░░░░] {scores.get('ai_ml', 67)}
+Operating Systems     [███████░░░░░░░░░] {scores.get('os', 35)}
+Networking            [██████░░░░░░░░░] {scores.get('networking', 30)}
+Algorithms            [█████░░░░░░░░░░░] {scores.get('algorithms', 25)}
+```
+
+- **⚡ Strongest Area**: {ai_insights.get('strongest_area', 'Memory & low-level programming')}
+- **🎯 Current Focus**: {ai_insights.get('current_focus', 'Recursion and algorithmic reasoning')}
+
+---
+
+## 🔓 Latest Unlocked Capability
+
+### {cap_title}
+{cap_md}
+
+---
+
+## 🧠 AI Learning Summary
+
+> {ai_insights.get('ai_summary', '')}
+
+**👉 Recommended Next Session**: {ai_insights.get('next_session_recommendation', 'Complete 2–3 recursion problems before moving to tree traversal.')}
+
+---
+
+<p align="center">
+  <sub>Powered by curiosity & AI 🤖 · Updated automatically via Daily Worker</sub>
+</p>
+"""
+
+    with open(README_FILE, "w", encoding="utf-8") as f:
+        f.write(readme_content)
+    print("📝 README.md updated successfully with latest developer progress stats!")
+
 # --- MAIN ENTRYPOINT ---
 def main():
     if hasattr(sys.stdout, "reconfigure"):
@@ -466,11 +551,15 @@ def main():
         f.write(html)
     print(f"🖼️ Preview saved to: file:///{PREVIEW_FILE.as_posix()}")
 
+    # Update README.md automatically
+    update_readme(data, ai_insights)
+
     if "--send" in sys.argv:
         send_email(html, RECIPIENT_EMAIL)
     else:
         print(f"📊 Parsed Level: {data['current_level']} ({data['current_tier']})")
         print("💡 Tip: Run `python scripts/send_daily_digest.py --send` to transmit the email via Gmail.")
+
 
 def send_email(html_content, recipient):
     if not GMAIL_USER or not GMAIL_APP_PASSWORD:

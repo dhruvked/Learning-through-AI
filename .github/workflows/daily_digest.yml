@@ -1,4 +1,4 @@
-name: Daily Learning Digest Email
+name: Daily Learning Digest Email & README Update
 
 on:
   schedule:
@@ -9,6 +9,8 @@ on:
 jobs:
   send-digest:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
 
     steps:
       - name: Checkout repository
@@ -19,10 +21,17 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Run Daily Digest Email Script
+      - name: Run Daily Digest Email Script & Update README
         env:
           GMAIL_USER: ${{ secrets.GMAIL_USER }}
           GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |
           python scripts/send_daily_digest.py --send
+
+      - name: Commit and Push Updated README.md
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --quiet && git diff --staged --quiet || (git commit -m "docs: auto-update daily developer progress in README [skip ci]" && git push)
