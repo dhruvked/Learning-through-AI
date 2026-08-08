@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 21
+- **Current Level**: Level 31
 - **Current Tier**: Tier 2 (🌿 Intermediate)
-- **Status**: Level 21 - Recursion & Call Stack Fundamentals (Ready to Start)
-- **Total XP**: 600 XP
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*
+- **Status**: Level 31 - Priority Queue / Min-Heap Engine in C (Coding Level) (Ready to Start)
+- **Total XP**: 1000 XP 🎉
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Understand **Recursion** and the CPU Call Stack with Base Cases and Recursive Steps.
-- **File**: `DSA_in_C/solutions/level_21_recursion_intro.c`
+- **Task**: Implement a **Priority Queue / Min-Heap Engine in C** with `insertHeap`, `extractMin`, `heapifyUp`, and `heapifyDown`.
+- **File**: `DSA_in_C/solutions/level_31_min_heap.c`
 
 ---
 
@@ -18,6 +18,16 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-08 | Lvl 30 | BST Engine in C | Passed | Built full C BST engine with recursive `insertNode`, `searchNode`, `inOrderTraversal`, and `freeTree` (+40 XP) |
+| 2026-08-08 | Lvl 29 | Heaps & Priority Queues | Passed | Mastered Max-Heap/Min-Heap properties, array index formulas (`2*i+1`, `2*i+2`), Heapify-Up/Down, and $O(\log N)$ priority queues (+40 XP) |
+| 2026-08-08 | Lvl 28 | Tree Traversals | Passed | Mastered In-Order (sorted output), Pre-Order (tree copy), and Post-Order (safe bottom-up memory deletion) (+40 XP) |
+| 2026-08-08 | Lvl 27 | BST Fundamentals | Passed | Mastered `left` (smaller) & `right` (larger) invariant rules, tree node structure, and $O(\log N)$ search paths (+40 XP) |
+| 2026-08-08 | Lvl 26 | Quick Sort & Partitioning | Passed | Mastered in-place partitioning, pivot locking, $\mathcal{O}(1)$ space advantage, and $\mathcal{O}(N^2)$ worst case (+40 XP) |
+| 2026-08-08 | Lvl 25 | Merge Sort ($O(N \log N)$) | Passed | Mastered Divide & Conquer, $O(N \log N)$ speedup, $O(N)$ extra space, and `low >= high` base case (+40 XP) |
+| 2026-08-08 | Lvl 24 | Insertion Sort & Adaptive | Passed | Mastered card-shifting mechanic, 0-loop inner execution for sorted data, and $\mathcal{O}(N)$ best-case (+40 XP) |
+| 2026-08-07 | Lvl 23 | Bubble & Selection Sort | Passed | Mastered bubbling max element, Selection Sort swap reduction ($N-1$ swaps), and $\mathcal{O}(N^2)$ (+40 XP) |
+| 2026-08-07 | Lvl 22 | Binary Search ($O(\log N)$) | Passed | Mastered `low + (high - low) / 2` overflow fix, $O(\log N)$ speed, and sorted requirement (+40 XP) |
+| 2026-08-07 | Lvl 21 | Recursion & Call Stack | Passed | 100% score on Base Cases, Call Stack execution, and $\mathcal{O}(N)$ recursion (+40 XP) |
 | 2026-08-06 | Lvl 20 | Tier 1 Final Capstone | Passed | Built real-world Browser History Manager with DLL, back/forward navigation (+60 XP) |
 | 2026-08-06 | Lvl 19 | Big-O Complexity Analysis | Passed | 100% score on $\mathcal{O}(1), \mathcal{O}(N), \mathcal{O}(N^2), \mathcal{O}(\log N)$ quiz (+40 XP) |
 | 2026-08-06 | Lvl 18 | Linked List Stack | Passed | Mastered dynamic pointer-based LIFO stack with $O(1)$ `push`, `pop`, `peek` (+35 XP) |
