@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 31
+- **Current Level**: Level 32
 - **Current Tier**: Tier 2 (🌿 Intermediate)
-- **Status**: Level 31 - Priority Queue / Min-Heap Engine in C (Coding Level) (Ready to Start)
-- **Total XP**: 1000 XP 🎉
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*
+- **Status**: Level 32 - AVL Trees & Self-Balancing Rotations (Ready to Start)
+- **Total XP**: 1040 XP
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Implement a **Priority Queue / Min-Heap Engine in C** with `insertHeap`, `extractMin`, `heapifyUp`, and `heapifyDown`.
-- **File**: `DSA_in_C/solutions/level_31_min_heap.c`
+- **Task**: Master **AVL Trees** and understand Balance Factor (`height(left) - height(right)`) and Left/Right rotations.
+- **File**: `DSA_in_C/solutions/level_32_avl_tree_guide.md`
 
 ---
 
@@ -18,6 +18,7 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-09 | Lvl 31 | Priority Queue / Min-Heap | Passed | Built full Min-Heap engine with array indexing (`2*i+1`, `2*i+2`), Heapify-Up (`(i-1)/2`), and Heapify-Down (+40 XP) |
 | 2026-08-08 | Lvl 30 | BST Engine in C | Passed | Built full C BST engine with recursive `insertNode`, `searchNode`, `inOrderTraversal`, and `freeTree` (+40 XP) |
 | 2026-08-08 | Lvl 29 | Heaps & Priority Queues | Passed | Mastered Max-Heap/Min-Heap properties, array index formulas (`2*i+1`, `2*i+2`), Heapify-Up/Down, and $O(\log N)$ priority queues (+40 XP) |
 | 2026-08-08 | Lvl 28 | Tree Traversals | Passed | Mastered In-Order (sorted output), Pre-Order (tree copy), and Post-Order (safe bottom-up memory deletion) (+40 XP) |
