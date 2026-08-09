@@ -8,11 +8,11 @@
 
 | Metric | Current Value |
 |--------|---------------|
-| **Overall Level** | **Level 31** / 100 |
-| **Total XP** | 1000 / 1750 XP |
+| **Overall Level** | **Level 32** / 100 |
+| **Total XP** | 1040 / 1750 XP |
 | **Current Tier** | Tier 2 (🌿 Intermediate) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Implement a **Priority Queue / Min-Heap Engine in C** with `insertHeap`, `extractMin`, `heapifyUp`, and `heapifyDown`. |
+| **Active Objective** | Master **AVL Trees** and understand Balance Factor (`height(left) - height(right)`) and Left/Right rotations. |
 | **Last Updated** | Aug 09, 2026 |
 
 ---
@@ -21,14 +21,15 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 31** | Tier 2 (🌿 Intermediate) | `[████████████████████░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 32** | Tier 2 (🌿 Intermediate) | `[████████████████████░░░░░░░░░░] 55%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+
 
 ---
 
 ## 🏛️ Curriculum Tiers
 
 - **Tier 1 — C & Fundamentals**: `20 / 20` `[████████████████████] 100% Complete`
-- **Tier 2 — Data Structures & Algorithms**: `11 / 20` `[█░░░░░░░░░░░░░░░░░░░] 55% Complete`
+- **Tier 2 — Data Structures & Algorithms**: `12 / 20` `[█░░░░░░░░░░░░░░░░░░░] 60% Complete`
 - **Tier 3 — Systems & OS**: `🔒 Locked`
 - **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
 - **Tier 5 — Advanced Engineering**: `🔒 Locked`
