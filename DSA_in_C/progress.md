@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 32
+- **Current Level**: Level 35
 - **Current Tier**: Tier 2 (🌿 Intermediate)
-- **Status**: Level 32 - AVL Trees & Self-Balancing Rotations (Ready to Start)
-- **Total XP**: 1040 XP
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*
+- **Status**: Level 35 - Graph Representation (Adjacency Matrix vs Adjacency List) (Ready to Start)
+- **Total XP**: 1160 XP
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Master **AVL Trees** and understand Balance Factor (`height(left) - height(right)`) and Left/Right rotations.
-- **File**: `DSA_in_C/solutions/level_32_avl_tree_guide.md`
+- **Task**: Master **Graph Representations** (Vertices $V$, Edges $E$, Adjacency Matrix $\mathcal{O}(V^2)$ vs Adjacency List $\mathcal{O}(V+E)$).
+- **File**: `DSA_in_C/solutions/level_35_graph_intro_guide.md`
 
 ---
 
@@ -18,6 +18,9 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-10 | Lvl 34 | Hash Map Engine in C | Passed | Built full C Hash Map engine with Separate Chaining, `insertHash` (head insertion), `searchHash`, and `freeHashTable` (+40 XP) |
+| 2026-08-10 | Lvl 33 | Hashing & Collisions | Passed | Mastered `key % TABLE_SIZE`, collision definition, $O(1)$ search speed, and Separate Chaining (+40 XP) |
+| 2026-08-10 | Lvl 32 | AVL Trees & Rotations | Passed | Mastered Balance Factor (`height(left) - height(right)` = -1, 0, +1), skewed tree degradation, and LL/RR/LR/RL rotations (+40 XP) |
 | 2026-08-09 | Lvl 31 | Priority Queue / Min-Heap | Passed | Built full Min-Heap engine with array indexing (`2*i+1`, `2*i+2`), Heapify-Up (`(i-1)/2`), and Heapify-Down (+40 XP) |
 | 2026-08-08 | Lvl 30 | BST Engine in C | Passed | Built full C BST engine with recursive `insertNode`, `searchNode`, `inOrderTraversal`, and `freeTree` (+40 XP) |
 | 2026-08-08 | Lvl 29 | Heaps & Priority Queues | Passed | Mastered Max-Heap/Min-Heap properties, array index formulas (`2*i+1`, `2*i+2`), Heapify-Up/Down, and $O(\log N)$ priority queues (+40 XP) |
