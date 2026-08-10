@@ -8,12 +8,12 @@
 
 | Metric | Current Value |
 |--------|---------------|
-| **Overall Level** | **Level 32** / 100 |
-| **Total XP** | 1040 / 1750 XP |
+| **Overall Level** | **Level 35** / 100 |
+| **Total XP** | 1160 / 2000 XP |
 | **Current Tier** | Tier 2 (🌿 Intermediate) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Master **AVL Trees** and understand Balance Factor (`height(left) - height(right)`) and Left/Right rotations. |
-| **Last Updated** | Aug 09, 2026 |
+| **Active Objective** | Master **Graph Representations** (Vertices $V$, Edges $E$, Adjacency Matrix $\mathcal{O}(V^2)$ vs Adjacency List $\mathcal{O}(V+E)$). |
+| **Last Updated** | Aug 10, 2026 |
 
 ---
 
@@ -21,7 +21,7 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 32** | Tier 2 (🌿 Intermediate) | `[████████████████████░░░░░░░░░░] 55%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 35** | Tier 2 (🌿 Intermediate) | `[████████████████████░░░░░░░░░░] 75%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
 
 
 ---
@@ -29,7 +29,7 @@
 ## 🏛️ Curriculum Tiers
 
 - **Tier 1 — C & Fundamentals**: `20 / 20` `[████████████████████] 100% Complete`
-- **Tier 2 — Data Structures & Algorithms**: `12 / 20` `[█░░░░░░░░░░░░░░░░░░░] 60% Complete`
+- **Tier 2 — Data Structures & Algorithms**: `15 / 20` `[█░░░░░░░░░░░░░░░░░░░] 75% Complete`
 - **Tier 3 — Systems & OS**: `🔒 Locked`
 - **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
 - **Tier 5 — Advanced Engineering**: `🔒 Locked`
