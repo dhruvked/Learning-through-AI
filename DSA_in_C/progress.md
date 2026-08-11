@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 38
-- **Current Tier**: Tier 2 (🌿 Intermediate)
-- **Status**: Level 38 - Shortest Path Algorithms (Dijkstra's Algorithm) (Ready to Start)
-- **Total XP**: 1280 XP
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*, 🕸️ *Graph Navigator*, 🌊 *BFS & DFS Explorer*, 🕸️ *Graph Master*
+- **Current Level**: Level 41
+- **Current Tier**: Tier 3 (🚀 Advanced Algorithms & Problem Solving)
+- **Status**: Level 41 - Dynamic Programming (DP) & Memoization Intro (Ready to Start)
+- **Total XP**: 1420 XP 🎉
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*, 🕸️ *Graph Navigator*, 🌊 *BFS & DFS Explorer*, 🕸️ *Graph Master*, 🗺️ *Shortest Path Explorer*, 🏅 *Tier 2 Master & Dijkstra Architect*, 👑 *Tier 2 Grandmaster*, 🏆 *GPS Navigation Legend*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Master **Dijkstra's Shortest Path Algorithm** for weighted graphs using Min-Heaps and Edge Relaxation.
-- **File**: `DSA_in_C/solutions/level_38_dijkstra_guide.md`
+- **Task**: Master **Dynamic Programming (DP)**, Overlapping Subproblems, Top-Down Memoization vs Bottom-Up Tabulation.
+- **File**: `DSA_in_C/solutions/level_41_dp_intro_guide.md`
 
 ---
 
@@ -18,6 +18,9 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-11 | Lvl 40 | Tier 2 Final Capstone | Passed | Built real-world GPS Route Planner using Weighted Graph, Dijkstra's Algorithm, city names, and recursive path reconstruction (`parent[]`) (+60 XP) (**TIER 2 GRANDMASTER!**) |
+| 2026-08-11 | Lvl 39 | Dijkstra Engine in C | Passed | Built full C Dijkstra Engine with weighted adjacency list, edge relaxation (`dist[u]+w < dist[v]`), and shortest path verification (+40 XP) |
+| 2026-08-11 | Lvl 38 | Dijkstra Theory & Proof | Passed | Mastered weighted graphs, Edge Relaxation (`dist[u]+w < dist[v]`), and $O((V+E) \log V)$ Min-Heap proof (+40 XP) |
 | 2026-08-11 | Lvl 37 | Graph Traversal Engine in C | Passed | Built full C Graph Engine with BFS (Layer-by-Layer Queue) and DFS (Deep Branch Recursion) (+40 XP) |
 | 2026-08-11 | Lvl 36 | Graph Traversals (BFS/DFS) | Passed | Mastered BFS (FIFO Queue, layer-by-layer, shortest path) and DFS (LIFO Stack/Recursion, deep branch diving, visited array) (+40 XP) |
 | 2026-08-11 | Lvl 35 | Graph Representations | Passed | Mastered Vertices $V$, Edges $E$, Adjacency Matrix ($O(V^2)$), and Adjacency List ($O(V+E)$) (+40 XP) |
