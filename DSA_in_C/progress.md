@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 35
+- **Current Level**: Level 38
 - **Current Tier**: Tier 2 (🌿 Intermediate)
-- **Status**: Level 35 - Graph Representation (Adjacency Matrix vs Adjacency List) (Ready to Start)
-- **Total XP**: 1160 XP
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*
+- **Status**: Level 38 - Shortest Path Algorithms (Dijkstra's Algorithm) (Ready to Start)
+- **Total XP**: 1280 XP
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*, 🕸️ *Graph Navigator*, 🌊 *BFS & DFS Explorer*, 🕸️ *Graph Master*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Master **Graph Representations** (Vertices $V$, Edges $E$, Adjacency Matrix $\mathcal{O}(V^2)$ vs Adjacency List $\mathcal{O}(V+E)$).
-- **File**: `DSA_in_C/solutions/level_35_graph_intro_guide.md`
+- **Task**: Master **Dijkstra's Shortest Path Algorithm** for weighted graphs using Min-Heaps and Edge Relaxation.
+- **File**: `DSA_in_C/solutions/level_38_dijkstra_guide.md`
 
 ---
 
@@ -18,6 +18,9 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-11 | Lvl 37 | Graph Traversal Engine in C | Passed | Built full C Graph Engine with BFS (Layer-by-Layer Queue) and DFS (Deep Branch Recursion) (+40 XP) |
+| 2026-08-11 | Lvl 36 | Graph Traversals (BFS/DFS) | Passed | Mastered BFS (FIFO Queue, layer-by-layer, shortest path) and DFS (LIFO Stack/Recursion, deep branch diving, visited array) (+40 XP) |
+| 2026-08-11 | Lvl 35 | Graph Representations | Passed | Mastered Vertices $V$, Edges $E$, Adjacency Matrix ($O(V^2)$), and Adjacency List ($O(V+E)$) (+40 XP) |
 | 2026-08-10 | Lvl 34 | Hash Map Engine in C | Passed | Built full C Hash Map engine with Separate Chaining, `insertHash` (head insertion), `searchHash`, and `freeHashTable` (+40 XP) |
 | 2026-08-10 | Lvl 33 | Hashing & Collisions | Passed | Mastered `key % TABLE_SIZE`, collision definition, $O(1)$ search speed, and Separate Chaining (+40 XP) |
 | 2026-08-10 | Lvl 32 | AVL Trees & Rotations | Passed | Mastered Balance Factor (`height(left) - height(right)` = -1, 0, +1), skewed tree degradation, and LL/RR/LR/RL rotations (+40 XP) |
