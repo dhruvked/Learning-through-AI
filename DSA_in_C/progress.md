@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 47
+- **Current Level**: Level 49
 - **Current Tier**: Tier 3 (🚀 Advanced Algorithms & Problem Solving)
-- **Status**: Level 47 - Greedy Algorithms (Activity Selection & Fractional Knapsack) (Ready to Start)
-- **Total XP**: 1660 XP
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*, 🕸️ *Graph Navigator*, 🌊 *BFS & DFS Explorer*, 🕸️ *Graph Master*, 🗺️ *Shortest Path Explorer*, 🏅 *Tier 2 Master & Dijkstra Architect*, 👑 *Tier 2 Grandmaster*, 🏆 *GPS Navigation Legend*, 🧠 *DP Apprentice*, 🏅 *1500 XP Legend & DP Architect*, 🎒 *Knapsack Specialist*, 🎒 *Knapsack Master*, 🧬 *LCS Architect*, 🧬 *LCS Master*
+- **Status**: Level 49 - Backtracking Intro & N-Queens Problem Theory (Ready to Start)
+- **Total XP**: 1740 XP
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*, 🕸️ *Graph Navigator*, 🌊 *BFS & DFS Explorer*, 🕸️ *Graph Master*, 🗺️ *Shortest Path Explorer*, 🏅 *Tier 2 Master & Dijkstra Architect*, 👑 *Tier 2 Grandmaster*, 🏆 *GPS Navigation Legend*, 🧠 *DP Apprentice*, 🏅 *1500 XP Legend & DP Architect*, 🎒 *Knapsack Specialist*, 🎒 *Knapsack Master*, 🧬 *LCS Architect*, 🧬 *LCS Master*, ⚡ *Greedy Analyst*, ⚡ *Greedy Master*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Master **Greedy Algorithms**: Greedy Choice Property, Activity Selection (finish-time sorting), Fractional Knapsack (value/weight ratio sorting).
-- **File**: `DSA_in_C/solutions/level_47_greedy_intro_guide.md`
+- **Task**: Master **Backtracking & N-Queens**: State space tree, choice/constraint/goal framework, safety check (`isSafe`), and depth-first undoing.
+- **File**: `DSA_in_C/solutions/level_49_backtracking_guide.md`
 
 ---
 
@@ -18,6 +18,8 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-12 | Lvl 48 | Fractional Knapsack Engine | Passed | Built full C Fractional Knapsack Engine using `qsort` ratio sorting, `double` precision, and greedy item packing (+40 XP) |
+| 2026-08-12 | Lvl 47 | Greedy Algorithms Theory | Passed | Mastered Greedy Choice Property, Activity Selection (finish-time sorting), and Fractional Knapsack ($v_i/w_i$ ratio sorting) (+40 XP) |
 | 2026-08-12 | Lvl 46 | LCS Engine in C | Passed | Built full C LCS Engine with 2D DP Tabulation (`dp[i][j]`), string character match (`1 + dp[i-1][j-1]`), and mismatch (`max(top, left)`) (+40 XP) |
 | 2026-08-12 | Lvl 45 | LCS Theory | Passed | Mastered Subsequence vs Substring, Match transition (`1 + dp[i-1][j-1]`), Mismatch transition (`max(top, left)`), and 2D DP Table ($O(m \times n)$) (+40 XP) |
 | 2026-08-12 | Lvl 44 | 0/1 Knapsack Engine in C | Passed | Built full C 0/1 Knapsack Engine with 2D DP Tabulation (`dp[i][j]`), `wt[i] <= j` condition, and optimal value matching (+40 XP) |
