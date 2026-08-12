@@ -8,12 +8,12 @@
 
 | Metric | Current Value |
 |--------|---------------|
-| **Overall Level** | **Level 38** / 100 |
-| **Total XP** | 1280 / 2000 XP |
-| **Current Tier** | Tier 2 (🌿 Intermediate) |
+| **Overall Level** | **Level 49** / 100 |
+| **Total XP** | 1740 / 2500 XP |
+| **Current Tier** | Tier 3 (🚀 Advanced Algorithms & Problem Solving) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Master **Dijkstra's Shortest Path Algorithm** for weighted graphs using Min-Heaps and Edge Relaxation. |
-| **Last Updated** | Aug 11, 2026 |
+| **Active Objective** | Master **Backtracking & N-Queens**: State space tree, choice/constraint/goal framework, safety check (`isSafe`), and depth-first undoing. |
+| **Last Updated** | Aug 12, 2026 |
 
 ---
 
@@ -21,7 +21,7 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 38** | Tier 2 (🌿 Intermediate) | `[████████████████████░░░░░░░░░░] 95%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 49** | Tier 3 (🚀 Advanced Algorithms & Problem Solving) | `[████████████████████░░░░░░░░░░] 55%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
 
 
 ---
@@ -29,7 +29,7 @@
 ## 🏛️ Curriculum Tiers
 
 - **Tier 1 — C & Fundamentals**: `20 / 20` `[████████████████████] 100% Complete`
-- **Tier 2 — Data Structures & Algorithms**: `18 / 20` `[█░░░░░░░░░░░░░░░░░░░] 90% Complete`
+- **Tier 2 — Data Structures & Algorithms**: `20 / 20` `[█░░░░░░░░░░░░░░░░░░░] 100% Complete`
 - **Tier 3 — Systems & OS**: `🔒 Locked`
 - **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
 - **Tier 5 — Advanced Engineering**: `🔒 Locked`
