@@ -13,7 +13,7 @@
 | **Current Tier** | Tier 3 (🚀 Advanced Algorithms & Problem Solving) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
 | **Active Objective** | Master **Backtracking & N-Queens**: State space tree, choice/constraint/goal framework, safety check (`isSafe`), and depth-first undoing. |
-| **Last Updated** | Aug 13, 2026 |
+| **Last Updated** | Aug 14, 2026 |
 
 ---
 
