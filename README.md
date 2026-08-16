@@ -8,12 +8,12 @@
 
 | Metric | Current Value |
 |--------|---------------|
-| **Overall Level** | **Level 49** / 100 |
-| **Total XP** | 1740 / 2500 XP |
-| **Current Tier** | Tier 3 (🚀 Advanced Algorithms & Problem Solving) |
+| **Overall Level** | **Level 1** / 100 |
+| **Total XP** | 65 / 250 XP |
+| **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Master **Backtracking & N-Queens**: State space tree, choice/constraint/goal framework, safety check (`isSafe`), and depth-first undoing. |
-| **Last Updated** | Aug 15, 2026 |
+| **Active Objective** | Write a minimal 512-byte bootloader in NASM assembly. Compile with NASM, run in QEMU, verify the boot signature (`55 AA`) at the end of `boot.bin`. |
+| **Last Updated** | Aug 16, 2026 |
 
 ---
 
@@ -21,15 +21,15 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 49** | Tier 3 (🚀 Advanced Algorithms & Problem Solving) | `[████████████████████░░░░░░░░░░] 55%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
 
 
 ---
 
 ## 🏛️ Curriculum Tiers
 
-- **Tier 1 — C & Fundamentals**: `20 / 20` `[████████████████████] 100% Complete`
-- **Tier 2 — Data Structures & Algorithms**: `20 / 20` `[█░░░░░░░░░░░░░░░░░░░] 100% Complete`
+- **Tier 1 — C & Fundamentals**: `1 / 20` `[████████████████████] 5% Complete`
+- **Tier 2 — Data Structures & Algorithms**: `0 / 20` `[█░░░░░░░░░░░░░░░░░░░] 0% Complete`
 - **Tier 3 — Systems & OS**: `🔒 Locked`
 - **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
 - **Tier 5 — Advanced Engineering**: `🔒 Locked`
