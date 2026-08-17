@@ -1,16 +1,16 @@
 # 📊 Progress Log — DSA in C
 
-- **Current Level**: Level 49
-- **Current Tier**: Tier 3 (🚀 Advanced Algorithms & Problem Solving)
-- **Status**: Level 49 - Backtracking Intro & N-Queens Problem Theory (Ready to Start)
-- **Total XP**: 1740 XP
-- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*, 🕸️ *Graph Navigator*, 🌊 *BFS & DFS Explorer*, 🕸️ *Graph Master*, 🗺️ *Shortest Path Explorer*, 🏅 *Tier 2 Master & Dijkstra Architect*, 👑 *Tier 2 Grandmaster*, 🏆 *GPS Navigation Legend*, 🧠 *DP Apprentice*, 🏅 *1500 XP Legend & DP Architect*, 🎒 *Knapsack Specialist*, 🎒 *Knapsack Master*, 🧬 *LCS Architect*, 🧬 *LCS Master*, ⚡ *Greedy Analyst*, ⚡ *Greedy Master*
+- **Current Level**: Level 51
+- **Current Tier**: Tier 4 (🌐 System Design & Enterprise Data Structures)
+- **Status**: Level 51 - System Design & Advanced Data Structures (Ready to Start)
+- **Total XP**: 1840 XP 🎉
+- **Badges Earned**: 🏆 *First Step*, ⚡ *Input Master*, 🧠 *Logic Master*, 🔁 *Loop Warrior*, 🎯 *Pointer Novice*, 🏗️ *Memory Architect*, 📈 *Vector Master*, 🔗 *Chain Linker*, 🚶‍♂️ *List Navigator*, ⚡ *Head Inserter*, 🏅 *Level 10 Master*, ✂️ *Node Reaper*, ↔️ *Doubly Linked Legend*, 🔄 *Circle Master*, 📚 *Stack Commander*, 🚦 *Queue Commander*, 🔁 *Modulo Master*, 🌊 *Dynamic Flow Master*, 🎯 *LIFO Master*, ⚡ *Complexity Analyst*, 👑 *Tier 1 Grandmaster*, 🔁 *Recursive Mind*, 🎯 *Binary Scout*, 🧼 *Sort Specialist*, 🃏 *Card Dealer*, ⚔️ *Divider & Conqueror*, ⚡ *Quick Swapper*, 🌲 *Tree Planter*, 🌿 *Traversal Master*, 🏔️ *Heap Climber*, 🏅 *1000 XP Legend & BST Architect*, ⛰️ *Heap Master*, ⚖️ *Balance Master*, 🔑 *Hash Master*, 🔑 *Map Architect*, 🕸️ *Graph Navigator*, 🌊 *BFS & DFS Explorer*, 🕸️ *Graph Master*, 🗺️ *Shortest Path Explorer*, 🏅 *Tier 2 Master & Dijkstra Architect*, 👑 *Tier 2 Grandmaster*, 🏆 *GPS Navigation Legend*, 🧠 *DP Apprentice*, 🏅 *1500 XP Legend & DP Architect*, 🎒 *Knapsack Specialist*, 🎒 *Knapsack Master*, 🧬 *LCS Architect*, 🧬 *LCS Master*, ⚡ *Greedy Analyst*, ⚡ *Greedy Master*, 👑 *Backtracking Master*, 👑 *Tier 3 Grandmaster*, 🏆 *N-Queens Legend*
 
 ---
 
 ## 🎯 Active Quest
-- **Task**: Master **Backtracking & N-Queens**: State space tree, choice/constraint/goal framework, safety check (`isSafe`), and depth-first undoing.
-- **File**: `DSA_in_C/solutions/level_49_backtracking_guide.md`
+- **Task**: Master **System Design Fundamentals**: Caching strategies (LRU Cache), Trie Data Structures (Prefix Trees for Autocomplete), and Enterprise Scale.
+- **File**: `DSA_in_C/solutions/level_51_system_design_intro.md`
 
 ---
 
@@ -18,6 +18,8 @@
 
 | Date | Level | Assessment | Result | Notes |
 |------|-------|------------|--------|-------|
+| 2026-08-17 | Lvl 50 | Tier 3 Final Capstone | Passed | Built real-world N-Queens Visualizer & Solver Engine in C using 3-step recursive backtracking, `isSafe` checks, and solution counting (+60 XP) (**TIER 3 GRANDMASTER!**) |
+| 2026-08-17 | Lvl 49 | Backtracking & N-Queens Theory | Passed | Mastered 3-Step Framework (Choose, Explore, Un-choose), `isSafe()` column/diagonal checks, and valid $N$ board bounds (+40 XP) |
 | 2026-08-12 | Lvl 48 | Fractional Knapsack Engine | Passed | Built full C Fractional Knapsack Engine using `qsort` ratio sorting, `double` precision, and greedy item packing (+40 XP) |
 | 2026-08-12 | Lvl 47 | Greedy Algorithms Theory | Passed | Mastered Greedy Choice Property, Activity Selection (finish-time sorting), and Fractional Knapsack ($v_i/w_i$ ratio sorting) (+40 XP) |
 | 2026-08-12 | Lvl 46 | LCS Engine in C | Passed | Built full C LCS Engine with 2D DP Tabulation (`dp[i][j]`), string character match (`1 + dp[i-1][j-1]`), and mismatch (`max(top, left)`) (+40 XP) |
