@@ -17,11 +17,10 @@
 
 ---
 
-## 📈 Active Skill Matrix
-
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
+| **MyOS** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0%` | 🌱 Active Quest | [Syllabus](MyOS/syllabus.md) \| [Progress](MyOS/progress.md) |
 
 
 ---
