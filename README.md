@@ -13,14 +13,15 @@
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
 | **Active Objective** | Write a minimal 512-byte bootloader in NASM assembly. Compile with NASM, run in QEMU, verify the boot signature (`55 AA`) at the end of `boot.bin`. |
-| **Last Updated** | Aug 17, 2026 |
+| **Last Updated** | Aug 18, 2026 |
 
 ---
 
+## 📈 Active Skill Matrix
+
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
-| **MyOS** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 0%` | 🌱 Active Quest | [Syllabus](MyOS/syllabus.md) \| [Progress](MyOS/progress.md) |
+| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
 
 
 ---
