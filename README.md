@@ -8,11 +8,11 @@
 
 | Metric | Current Value |
 |--------|---------------|
-| **Overall Level** | **Level 1** / 100 |
-| **Total XP** | 65 / 250 XP |
+| **Overall Level** | **Level 2** / 100 |
+| **Total XP** | 165 / 250 XP |
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
-| **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Write a minimal 512-byte bootloader in NASM assembly. Compile with NASM, run in QEMU, verify the boot signature (`55 AA`) at the end of `boot.bin`. |
+| **Learning Streak** | 🔥 8 Days (+15% XP Multiplier Active) |
+| **Active Objective** | Master **Real Mode Memory Map & Stack Setup**: Configure segment registers (`DS`, `ES`), set up a safe stack (`SS:SP` at `0x7C00`), and understand reserved BIOS zones. |
 | **Last Updated** | Aug 19, 2026 |
 
 ---
@@ -21,7 +21,8 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
+| **MyOS** | **Level 2** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 5%` | 🟡 Active Quest | [Syllabus](MyOS/syllabus.md) \| [Progress](MyOS/progress.md) |
 
 
 ---
