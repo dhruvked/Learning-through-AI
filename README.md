@@ -13,7 +13,7 @@
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
 | **Active Objective** | Write a minimal 512-byte bootloader in NASM assembly. Compile with NASM, run in QEMU, verify the boot signature (`55 AA`) at the end of `boot.bin`. |
-| **Last Updated** | Aug 18, 2026 |
+| **Last Updated** | Aug 19, 2026 |
 
 ---
 
