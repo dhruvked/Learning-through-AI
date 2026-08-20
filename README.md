@@ -9,11 +9,11 @@
 | Metric | Current Value |
 |--------|---------------|
 | **Overall Level** | **Level 2** / 100 |
-| **Total XP** | 165 / 250 XP |
+| **Total XP** | 100 / 250 XP |
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
-| **Learning Streak** | 🔥 8 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Master **Real Mode Memory Map & Stack Setup**: Configure segment registers (`DS`, `ES`), set up a safe stack (`SS:SP` at `0x7C00`), and understand reserved BIOS zones. |
-| **Last Updated** | Aug 19, 2026 |
+| **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
+| **Active Objective** | Inspect the 1MB Real Mode memory layout. Write a bootloader that properly initializes segment registers (`DS = 0`, `ES = 0`), sets up a safe stack (`SS = 0`, `SP = 0x7C00`), and halts cleanly with interrupts disabled (`cli` / `hlt`). |
+| **Last Updated** | Aug 20, 2026 |
 
 ---
 
@@ -21,15 +21,14 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 1** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 80%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
-| **MyOS** | **Level 2** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[██░░░░░░░░░░░░░░░░░░░░░░░░░░░░] 5%` | 🟡 Active Quest | [Syllabus](MyOS/syllabus.md) \| [Progress](MyOS/progress.md) |
+| **DSA in C** | **Level 2** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
 
 
 ---
 
 ## 🏛️ Curriculum Tiers
 
-- **Tier 1 — C & Fundamentals**: `1 / 20` `[████████████████████] 5% Complete`
+- **Tier 1 — C & Fundamentals**: `2 / 20` `[████████████████████] 10% Complete`
 - **Tier 2 — Data Structures & Algorithms**: `0 / 20` `[█░░░░░░░░░░░░░░░░░░░] 0% Complete`
 - **Tier 3 — Systems & OS**: `🔒 Locked`
 - **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
