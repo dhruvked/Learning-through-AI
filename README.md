@@ -13,7 +13,7 @@
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
 | **Active Objective** | Inspect the 1MB Real Mode memory layout. Write a bootloader that properly initializes segment registers (`DS = 0`, `ES = 0`), sets up a safe stack (`SS = 0`, `SP = 0x7C00`), and halts cleanly with interrupts disabled (`cli` / `hlt`). |
-| **Last Updated** | Aug 20, 2026 |
+| **Last Updated** | Aug 21, 2026 |
 
 ---
 
