@@ -8,11 +8,11 @@
 
 | Metric | Current Value |
 |--------|---------------|
-| **Overall Level** | **Level 2** / 100 |
-| **Total XP** | 100 / 250 XP |
+| **Overall Level** | **Level 4** / 100 |
+| **Total XP** | 365 / 500 XP |
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
-| **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Inspect the 1MB Real Mode memory layout. Write a bootloader that properly initializes segment registers (`DS = 0`, `ES = 0`), sets up a safe stack (`SS = 0`, `SP = 0x7C00`), and halts cleanly with interrupts disabled (`cli` / `hlt`). |
+| **Learning Streak** | 🔥 8 Days (+15% XP Multiplier Active) |
+| **Active Objective** | Master **x86 16-Bit Registers & Flags**: General-purpose registers (`AX`, `BX`, `CX`, `DX`), byte splitting (`AH`/`AL`), pointers (`SI`, `DI`, `SP`, `BP`), and condition flags (`ZF`, `CF`, `SF`). |
 | **Last Updated** | Aug 21, 2026 |
 
 ---
@@ -21,7 +21,8 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 2** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 2** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
+| **MyOS** | **Level 4** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](MyOS/syllabus.md) \| [Progress](MyOS/progress.md) |
 
 
 ---
