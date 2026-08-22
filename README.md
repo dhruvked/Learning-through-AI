@@ -9,11 +9,11 @@
 | Metric | Current Value |
 |--------|---------------|
 | **Overall Level** | **Level 4** / 100 |
-| **Total XP** | 365 / 500 XP |
+| **Total XP** | 300 / 250 XP |
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
-| **Learning Streak** | 🔥 8 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Master **x86 16-Bit Registers & Flags**: General-purpose registers (`AX`, `BX`, `CX`, `DX`), byte splitting (`AH`/`AL`), pointers (`SI`, `DI`, `SP`, `BP`), and condition flags (`ZF`, `CF`, `SF`). |
-| **Last Updated** | Aug 21, 2026 |
+| **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
+| **Active Objective** | Master general-purpose registers (`AX`, `BX`, `CX`, `DX`), byte splitting (`AH`/`AL`, etc.), pointer/index registers (`SI`, `DI`, `SP`, `BP`), and CPU condition flags (`ZF`, `CF`, `SF`, `IF`). Write a bootloader demonstrating register arithmetic and flags. |
+| **Last Updated** | Aug 22, 2026 |
 
 ---
 
@@ -21,15 +21,14 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 2** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) \| [Progress](DSA_in_C/progress.md) |
-| **MyOS** | **Level 4** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████░░░░░░░░░░░░░░░░░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](MyOS/syllabus.md) \| [Progress](MyOS/progress.md) |
+| **DSA in C** | **Level 4** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
 
 
 ---
 
 ## 🏛️ Curriculum Tiers
 
-- **Tier 1 — C & Fundamentals**: `2 / 20` `[████████████████████] 10% Complete`
+- **Tier 1 — C & Fundamentals**: `4 / 20` `[████████████████████] 20% Complete`
 - **Tier 2 — Data Structures & Algorithms**: `0 / 20` `[█░░░░░░░░░░░░░░░░░░░] 0% Complete`
 - **Tier 3 — Systems & OS**: `🔒 Locked`
 - **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
