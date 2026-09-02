@@ -13,7 +13,7 @@
 | **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
 | **Active Objective** | Master general-purpose registers (`AX`, `BX`, `CX`, `DX`), byte splitting (`AH`/`AL`, etc.), pointer/index registers (`SI`, `DI`, `SP`, `BP`), and CPU condition flags (`ZF`, `CF`, `SF`, `IF`). Write a bootloader demonstrating register arithmetic and flags. |
-| **Last Updated** | Sep 01, 2026 |
+| **Last Updated** | Sep 02, 2026 |
 
 ---
 
