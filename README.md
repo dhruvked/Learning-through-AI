@@ -8,12 +8,12 @@
 
 | Metric | Current Value |
 |--------|---------------|
-| **Overall Level** | **Level 4** / 100 |
-| **Total XP** | 300 / 250 XP |
-| **Current Tier** | Tier 1 (🌱 Boot & Assembly Fundamentals) |
+| **Overall Level** | **Level 56** / 100 |
+| **Total XP** | 2040 / 3000 XP |
+| **Current Tier** | Tier 4 (🌐 System Design & Enterprise Data Structures) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
-| **Active Objective** | Master general-purpose registers (`AX`, `BX`, `CX`, `DX`), byte splitting (`AH`/`AL`, etc.), pointer/index registers (`SI`, `DI`, `SP`, `BP`), and CPU condition flags (`ZF`, `CF`, `SF`, `IF`). Write a bootloader demonstrating register arithmetic and flags. |
-| **Last Updated** | Sep 24, 2026 |
+| **Active Objective** | Master **Segment Trees**: Range Sum / Range Minimum Queries in $O(\log N)$, Point Updates in $O(\log N)$, and array-based binary tree representation. |
+| **Last Updated** | Sep 25, 2026 |
 
 ---
 
@@ -21,15 +21,15 @@
 
 | Skill Track | Level | Tier | Progress | Status | Link |
 |-------------|-------|------|----------|--------|------|
-| **DSA in C** | **Level 4** | Tier 1 (🌱 Boot & Assembly Fundamentals) | `[████████████████████░░░░░░░░░░] 15%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
+| **DSA in C** | **Level 56** | Tier 4 (🌐 System Design & Enterprise Data Structures) | `[████████████████████░░░░░░░░░░] 55%` | 🟡 Active Quest | [Syllabus](DSA_in_C/syllabus.md) | [Progress](DSA_in_C/progress.md) |
 
 
 ---
 
 ## 🏛️ Curriculum Tiers
 
-- **Tier 1 — C & Fundamentals**: `4 / 20` `[████████████████████] 20% Complete`
-- **Tier 2 — Data Structures & Algorithms**: `0 / 20` `[█░░░░░░░░░░░░░░░░░░░] 0% Complete`
+- **Tier 1 — C & Fundamentals**: `20 / 20` `[████████████████████] 100% Complete`
+- **Tier 2 — Data Structures & Algorithms**: `20 / 20` `[█░░░░░░░░░░░░░░░░░░░] 100% Complete`
 - **Tier 3 — Systems & OS**: `🔒 Locked`
 - **Tier 4 — Networking & Distributed Systems**: `🔒 Locked`
 - **Tier 5 — Advanced Engineering**: `🔒 Locked`
