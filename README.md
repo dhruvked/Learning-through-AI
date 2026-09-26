@@ -13,7 +13,7 @@
 | **Current Tier** | Tier 4 (🌐 System Design & Enterprise Data Structures) |
 | **Learning Streak** | 🔥 7 Days (+15% XP Multiplier Active) |
 | **Active Objective** | Master **Segment Trees**: Range Sum / Range Minimum Queries in $O(\log N)$, Point Updates in $O(\log N)$, and array-based binary tree representation. |
-| **Last Updated** | Sep 25, 2026 |
+| **Last Updated** | Sep 26, 2026 |
 
 ---
 
